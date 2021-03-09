@@ -13,6 +13,7 @@
     width: 600px;
     height: 450px;
     filter: none;
+    cursor: default;
 }
 .table img {
     width: 275px;
@@ -46,6 +47,7 @@ figcaption {
     float: right;
     object-fit: cover;
     padding-top: 50px;
+    cursor: default;
 }
 h1 {
     text-align: left;
@@ -84,7 +86,7 @@ h3 {
     float: right;
     object-fit: cover;
     padding-top: 50px;
-    }
+    cursor: default;
 }
 button {
     padding: 5px;
@@ -93,7 +95,9 @@ button {
     display: block;
 }
 img:hover {
-    filter: grayscale(100%);;
+    filter: grayscale(100%);
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
  }
 ::-webkit-scrollbar {
     width: 30px;
@@ -102,4 +106,3 @@ img:hover {
     border: 5px solid black;
     border-radius: 10px;
   }
-  
