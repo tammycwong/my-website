@@ -32,8 +32,8 @@ figure {
     display: inline-block;
     margin: 0;
     overflow: hidden;
+    padding-left: 30px;
     padding-right: 25px;
-    padding-left: 20px;
 }
 figcaption {
     margin: 0;
@@ -61,6 +61,9 @@ h1 {
     font-size: 50pt;
     width: 375px;
     margin: 0;
+}
+h1:hover {
+    color: #ff0066; 
 }
 p {
     font-size: 24pt;
