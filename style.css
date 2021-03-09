@@ -4,7 +4,6 @@
     width: 1000px;
     height: 100%;
     margin: auto;
-    cursor: url("images/babycursor.jpg"), auto;
 }
 .clearfix{
     overflow: auto;
@@ -27,7 +26,8 @@ figure {
     display: inline-block;
     margin: 0;
     overflow: hidden;
-    padding: 25px;
+    padding-right: 25px;
+    padding-left: 12px;
 }
 figcaption {
     margin: 0;
@@ -74,6 +74,13 @@ h3 {
     margin: 0;
     padding: 0;
 }
+h5 {
+    font-size: 10pt;
+    margin: 0px;
+    padding: 0px;
+    font-style:italic;
+    text-align: left;
+}
 #outside {
     height: 400px;
     margin-left: auto;
@@ -85,6 +92,14 @@ h3 {
     object-fit: cover;
     padding-top: 50px;
     cursor: default;
+}
+#doanything img{
+    cursor: default;
+    width: 475px;
+    height: 475px;
+    filter: none;
+    margin: auto;
+    border-bottom: none;
 }
 img:hover {
     filter: grayscale(100%);

@@ -55,3 +55,12 @@ document.getElementById('enlarge16').onclick=function(){
 document.getElementById('enlarge17').onclick=function(){
     window.open('images/hike.jpg', '_blank' , 'width='+w+', height='+h+'');
 }
+function bigImg(x) {
+    x.style.height = "325px";
+    x.style.width = "325px";
+  }
+  
+  function normalImg(x) {
+    x.style.height = "275px";
+    x.style.width = "275px";
+  }
